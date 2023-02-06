@@ -22,3 +22,30 @@
 .debug {
     border: 1px solid black;
 }
+.nav-items {
+    list-style: none;
+
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.even{
+    background-color: var(--bg-section);
+}
+
+header {
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primay-color);
+}
