@@ -18,18 +18,25 @@
 }
 .body {
     background-color: var(--primay-color);
+    font-family: 'Livvic', sans-serif;
+    
+    font-family: 'Noto Sans', sans-serif;
 }
 .debug {
     border: 1px solid black;
 }
-ul {
-    list-style: none;
-}
+
+
 .nav-items {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;   
+}
+
+ul {
+    list-style: none;
+
 }
 
 .align-center {
@@ -44,9 +51,14 @@ ul {
     border-radius: 15px;
 }
 
-.nav-items li {
+.nav-items li a {
+    color: var(--primay-color);
     align-items: center;
     padding: 0px 30px;
+    text-decoration: none;
+}
+.nav-items li a:hover {
+    color:#2A5EE8;
 }
 
 .left {
