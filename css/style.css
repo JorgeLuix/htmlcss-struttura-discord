@@ -39,8 +39,15 @@ ul {
 
 }
 
+
 .align-center {
     align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
 }
 
 .button {
@@ -80,15 +87,40 @@ header {
 
 #hero {
     background-image: url(../img/jumbo.png);
+    background-position: 0px;
     background-size: cover;
     min-height: 500px;
+    max-height: 1400px;
 }
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .contenuto {
     text-align: center;
-    justify-content: center;
-    
+    margin-bottom: 1rem;
+}
 
+h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: var(--primay-color);
+}
+
+p {
+    color: var(--primay-color);
+    font-size: 20px;
+}
+.btn {
+    padding: 10px 15px;
+    background-color: var(--bg-footer);
+    color: var(--primay-color);
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
 }
 
 
