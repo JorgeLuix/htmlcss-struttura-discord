@@ -22,8 +22,15 @@
 .debug {
     border: 1px solid black;
 }
-.nav-items {
+ul {
     list-style: none;
+}
+.nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+   
 
 }
 
@@ -38,10 +45,7 @@
 
 header {
     background-color: var(--bg-header);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
+    
 }
 
 
