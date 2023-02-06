@@ -78,6 +78,19 @@ header {
     
 }
 
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.contenuto {
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
 
 footer {
     background-color: var(--bg-footer);
