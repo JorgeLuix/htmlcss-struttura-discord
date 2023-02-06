@@ -10,17 +10,17 @@
 <body>
     
         <header>
-            <div class="logo">
-                <img src="" alt="logo">
-            </div>
            
             <nav class="container nav-items debug">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="logo">
+                </div>
                 <ul class="nav-items">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
                 </ul>
             
              <a class="accedi" href="#"><button>Accedi</button></a>
@@ -37,13 +37,22 @@
         
         <main>
             <section>
-                <div class="container debug">S1</div>
+                <div class="container nav-items debug">
+                    <div class="left debug">img</div>
+                    <div class="right debug">text</div>
+                </div>
             </section>
-            <section .class="even">
-                <div class="container debug">S2</div>
+            <section class="even">
+                <div class="container nav-items debug">
+                    <div class="left debug">text</div>
+                    <div class="right debug">img</div>
+                </div>
             </section>
             <section>
-                <div class="container debug">S3</div>
+                <div class="container nav-items debug">
+                    <div class="left debug">img</div>
+                    <div class="right debug">text</div>
+                </div>
             </section>
             <section class="even">
                 <div class="container debug">S4</div>
@@ -52,7 +61,7 @@
         </main>
 
         <footer>
-            <div>
+            <div class="container nav-items">
                 <ul>
                     <li>1</li>
                 </ul>
@@ -70,8 +79,14 @@
                 </ul>
 
             </div>
-            <div>footer botom</div>
+            <div class="container nav-items debug">
+                <div class="logo">
+                    <img src="" alt="logo">
+                </div>
+                <button>Registrati</button>
+            </div>
+            
         </footer>
-    </div>
+    
 </body>
 </html>

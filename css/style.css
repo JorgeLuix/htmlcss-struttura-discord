@@ -30,13 +30,19 @@ ul {
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
-   
-
 }
 
 .nav-items li {
-    display: inline-block;
+    align-items: center;
     padding: 0px 30px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
 }
 
 .even{
